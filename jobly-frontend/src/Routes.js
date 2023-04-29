@@ -1,5 +1,13 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
+import Homepage from "./Homepage";
+import CompanyList from "./CompanyList";
+import JobList from "./JobList";
+import CompanyDetail from "./CompanyDetail";
+import LoginForm from "./LoginForm";
+import ProfileForm from "./ProfileForm";
+import SignupForm from "./SignupForm";
+import PrivateRoute from "./PrivateRoute";
 
 function Routes({ login, signup }) {
   console.debug(
