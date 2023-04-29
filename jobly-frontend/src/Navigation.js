@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import UserContext from "./UserContext";
 import "./Navigation.css";
 
 function Navigation({ logout }) {
